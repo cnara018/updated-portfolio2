@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en-us">
+    <meta charset="UTF-8">
+
+<title>Charlie Naranjo</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poiret+One" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Tangerine">
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+<div id="top">
+</div>
+
+<header class="masthead bg-primary text-black text-left">
+    <div class="row">
+          <div class="col-lg-12 navPosition">
+            <nav class="navbar fixed-top justify-content-end">
+              <ul class="nav nav-bar">
+                <li class="nav-item">
+                  <a class="nav-link active" href="#top"><strong class="navBorder">Home</strong></a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link active" href="#aboutSection"><strong class="navBorder">About</strong></a>
+                </li>
+                <br>
+                <li class="nav-item">
+                  <a class="nav-link" href="#portfolioSection"><strong class="navBorder">Portfolio</strong></a>
+                </li>
+                <br>
+                <li class="nav-item">
+                  <a class="nav-link" href="#contactSection"><strong class="navBorder">Contact</strong></a>
+                </li>
+              </ul>
+            </nav>
+          </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-5 photoDiv">
+          <img class="profilePic" src="assets/images/ME.JPG" alt="Charlie Naranjo">
+        </div>
+        <div class="col-lg-7">
+        </div>
+      </div>
+
+    <div class="row">
+        <div class="col-lg-12">
+            <div class="introDiv">
+              <h1 class="name"><strong>Charlie Naranjo</strong></h1>
+              <h2 class="profession">Aspiring Software Engineer</h2>
+              <br>
+              
+              <h2 class="skills">C#</h2>
+              <h2 class="skills">.NET</h2>
+              <h2 class="skills">HTML</h2>
+              <h2 class="skills">CSS</h2>
+              <h2 class="skills">JavaScript</h2>
+              <h2 class="skills">jQuery</h2>
+              <h2 class="skills">node.js</h2>
+              <h2 class="skills">SQL Server</h2>
+
+            </div>
+          </div>
+      </div>
+
+</header>
+
+<section class="aboutSection bg-secondary" id="aboutSection">
+  <div class="container">
+      <h1><strong>About Me</strong></h1>
+      
+    <div class="row">
+      <div class="col-sm-2"></div>
+      <div class="col-lg-8">
+            <p class="aboutParagraph">My name is Charlie Naranjo and I am an aspiring software engineer. I am currently enrolled in a Full-stack Development boot camp at the University of Miami
+              to deepen my understanding of web development programming. In 2019, I graduated from Florida International University with my Bachelors of Science in Information Technology.
+              In pursuit of my Bachelors, I took a lot of different courses involving major computer concepts such Programming, Databases (SQL Server), Networking, Cyber Security and 
+              was overall exposed to the many opportunities this industry has to offer. I really enjoyed programming and decided this was the path I would pursue full force.
+
+              
+            <p class="aboutParagraph">
+             I love to play video games, music, and I am a die hard Nintendo Fan. 
+            Currently, I am employed as Technical Support Engineer for a Security company here in Florida.
+
+            </p>
+      </div>
+      <div class="col-md-2">
+      </div>
+  </div>
+</section>
+
+<section class="portfolio bg-white" id="portfolioSection">
+  <div class="container">
+    <h1 id = "portfolio"><strong>Portfolio</strong></h1>
+      <h2 style = "color: black; font-size: 50px;">My most recent Project</h2>
+
+    <div class="thumbnailWrapper">
+
+    <div class="row">
+        <div class="col-md-12">
+            <div class="imgContainer">
+              <img class="img-fluid imgMod bandana" src="assets/images/ubergamespic.PNG" alt="ubergames">
+              <a class="projectName" href="https://ubergames.herokuapp.com/"><p>Uber Games</p></a>
+            </div>
+      </div>
+
+  </div>
+
+    </div>
+  </div>
+</section>
+
+<section class="contact bg-info" id="contactSection">
+  <div class="container">
+    <h1 id = "contactme"><strong> Contact Me</strong></h1>
+     
+    <div class="row">
+      <div class="col-lg-12">
+        <h2 id="my-email">charlienaranjo19@gmail.com</h2>
+          <button onclick="copyEmail('#my-email')">copy email</button>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-12">
+
+          <ul class="list-inline mb-0">
+              
+              <li class="list-inline-item">
+                <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.linkedin.com/in/charlienaranjo1994/">
+                  <i class="fa fa-fw fa-linkedin"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://www.instagram.com/nintendocharlee/">
+                  <i class="fa fa-fw fa-instagram"></i>
+                </a>
+              </li>
+              <li class="list-inline-item">
+                  <a class="btn btn-outline-dark btn-social text-center rounded-circle" href="https://github.com/cnara018">
+                    <i class="fa fa-fw fa-github"></i>
+                  </a>
+              </li>
+            </ul>
+
+      </div>
+    </div>
+
+  </div>
+</section>
+  
+<footer class="footer">
+    Copyright &copy; 2020
+</footer>
+
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script type="text/javascript" src="assets/javascript/logic.js"></script>
+
+</body>
+
+</html>
